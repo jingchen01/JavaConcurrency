@@ -8,7 +8,9 @@ import java.util.concurrent.Semaphore;
 public class BankSemaphoreApp {
 
     /**
-     * process deposit
+     * Process deposit
+     * 20 people need to deposit money，there are only 5 windows in bank.
+     * If there are available windows, go to deposit, otherwise wait in line.
      */
     public void processDeposit() {
 
